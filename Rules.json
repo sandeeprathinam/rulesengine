@@ -1,0 +1,20 @@
+[
+  {
+    "SignalType": "ATL1",
+    "MemberName": "dvalue",
+    "Operator": "LessThan",
+    "TargetValue": "240.00"
+  },
+  {
+    "signaltype": "ATL2",
+    "MemberName": "svalue",
+    "Operator": "NotEqual",
+    "TargetValue": "LOW"
+  },
+  {
+    "signaltype": "ATL3",
+    "MemberName": "dtvalue",
+    "Operator": "LessThanOrEqual",
+    "TargetValue": "CurrentDateTime"
+  }
+]
